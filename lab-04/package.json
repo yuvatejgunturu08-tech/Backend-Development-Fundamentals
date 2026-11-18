@@ -1,0 +1,20 @@
+{
+  "name": "yuvatej-lab-04-registration-login-jwt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lab 4: Registration, login, password hashing, and JWT authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
